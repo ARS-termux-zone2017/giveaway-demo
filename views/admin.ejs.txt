@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"/><title>Admin Panel</title></head>
+<body>
+  <h1>Admin Panel</h1>
+  <form method="post" action="/admin/update-text">
+    <textarea name="siteText" rows="3" cols="60"><%= siteText %></textarea><br/>
+    <button>Update Front Text</button>
+  </form>
+
+  <h2>Entries (<%= entries.length %>)</h2>
+  <form method="post" action="/admin/clear" onsubmit="return confirm('Clear all?')">
+    <button>Clear All</button>
+  </form>
+  <ul>
+    <% entries.forEach(e => { %>
+      <li><%= e.time %> — <%= e.name %> — <%= e.email %></li>
+    <% }) %>
+  </ul>
+  <a href="/">Back to site</a>
+</body>
+</html>

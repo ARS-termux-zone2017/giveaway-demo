@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"/><title>Thanks</title></head>
+<body>
+  <h2>Thanks, <%= name %> ✅</h2>
+  <p>Your entry has been recorded (demo only).</p>
+  <a href="/">Back</a>
+</body>
+</html>
