@@ -1,4 +1,10 @@
-# giveaway-demo
+# giveaway-demo  Error: Failed to fetch https://mirror.krfoss.org/kali/pool/main/p/prettify.js/libjs-prettify_2015.12.04+dfsg-1.1_all.deb  520  <none> [IP: 104.16.20.53 443]
+Error: Failed to fetch https://mirror.krfoss.org/kali/pool/main/n/node-tslib/node-tslib_2.4.1-1_all.deb  520  <none> [IP: 104.16.20.53 443]
+Error: Failed to fetch https://mirror.krfoss.org/kali/pool/main/n/node-has-unicode/node-has-unicode_2.0.1-5_all.deb  520  <none> [IP: 104.16.20.53 443]
+Error: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+./run.sh: line 13: npm: command not found
+./run.sh: line 16: npm: command not found
+
 git clone https://github.com/YourName/giveaway-demo.git
 cd giveaway-demo
 chmod +x run.sh
